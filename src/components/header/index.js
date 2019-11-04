@@ -7,7 +7,7 @@ const Header = () => {
         <header>
             <div className="container">
                 <div className="logo">
-                    <img src={logo} alt="SendInBlue" />
+                    <img data-test="logo" src={logo} alt="SendInBlue" />
                 </div>
             </div>
         </header>

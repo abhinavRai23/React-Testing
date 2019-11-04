@@ -1,5 +1,6 @@
 import React from "react";
-import Header from './components/header/index'
+import Header from './components/header'
+import Headline from './components/headline'
 import './app.scss'
 
 class App extends React.Component {
@@ -7,6 +8,10 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header/>
+        <section className="container">
+          <Headline headline="" desc="" />          
+          <Headline headline="React Testing" desc="Test using Jest and Enzyme" />
+        </section>
       </div>
     );
   }
